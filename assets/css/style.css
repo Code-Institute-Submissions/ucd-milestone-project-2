@@ -36,22 +36,14 @@
 
  /*-------------------------------------------callout-container*/
 
- .opaque-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
- }
-
  h1,
  h2 {
   font-family: 'Bree Serif', cursive;
  }
 
  .heading-border {
-  border: 3px solid #83aff7;
+  border: 3px inset #83aff7;
+  border-radius: 10px;
   padding: 9px;
  }
 
@@ -66,11 +58,11 @@
  .main-image {
   width: 95%;
  }
- 
+
  .band-image {
-    width: 70%;
-    margin: 20px 0;
-}
+  width: 70%;
+  margin: 20px 0;
+ }
 
  .link {
   font-family: 'Gloria Hallelujah', cursive;
@@ -93,6 +85,111 @@
 
  }
 
+ /*--------------------Social-links Footer*/
+
+ .footer {
+  background-color: rgba(0, 0, 0, 0.9);
+ }
+
+ .list-inline {
+  line-height: 40px;
+  margin: 0px;
+ }
+
+ .list-inline i {
+  font-size: 22px;
+  margin: 0px 17px;
+ }
+
+ .social-links a {
+  color: #83aff7;
+ }
+
+ .social-links i:hover,
+ .social-links a:hover {
+  color: #3264b5;
+  -moz-transition: all 0.30s ease-in-out;
+  -webkit-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+ }
+
+ /*-----------------------------------section Listen\*/
+
+ .track-cover {
+  float: left;
+  width: 50%;
+  margin: 0px 10px 10px 10px;
+ }
+
+ .track-title-1 {
+  font-family: 'Bree Serif', serif;
+  margin-top: 10px;
+  border: none;
+  text-align: left;
+ }
+
+ .player {
+  margin: 0 10px;
+  width: 50%;
+  float: left;
+ }
+
+ .track-cover-opposite {
+  width: 50%;
+  margin: 0px 10px 10px 10px;
+  float: right;
+ }
+
+ .track-title-opposite {
+  font-family: 'Bree Serif', serif;
+  margin-top: 10px;
+  border: none;
+  text-align: right;
+ }
+
+ .player-opposite {
+  margin: 0 10px;
+  width: 50%;
+  float: right;
+ }
+
+ .video-2 {
+  width: 100%;
+  height: 270px;
+  margin-bottom: 35px;
+ }
+
+ .bottom-row {
+  border-top: 1px solid #fff;
+ }
+
+ .music-apps-container {
+  padding: 25px 0px;
+  text-align: center;
+ }
+
+ .music-apps {
+  font-size: 80px;
+  text-align: center;
+  float: none;
+ }
+
+ .music-apps:hover {
+  text-shadow: 0px 0px 20px #3264b5;
+ }
+
+ .fa-spotify {
+  color: #1ed760;
+ }
+
+ .fa-soundcloud {
+  color: #fe6200;
+ }
+
+ .fa-apple {
+  color: #fff;
+ }
+
  /*-------------------------------------------Media Queries*/
 
  @media (min-width: 768px) {
@@ -113,6 +210,27 @@
 
   .main-image {
    width: 50%;
+  }
+
+  .list-inline i {
+   margin: 0px 50px;
+  }
+
+  .video-2 {
+   height: 350px;
+  }
+
+  .track-cover-opposite {
+   float: left;
+  }
+
+  .track-title-opposite {
+   float: none;
+   text-align: left;
+  }
+
+  .player-opposite {
+   float: none;
   }
 
 
