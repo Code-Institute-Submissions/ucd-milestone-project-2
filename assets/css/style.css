@@ -307,6 +307,12 @@
   -o-transition: all 0.20s ease-in-out;
  }
 
+/*--------------------------------------------Thank You pages*/
+
+.thank-you-image {
+ height: 50%
+}
+
  /*-------------------------------------------Media Queries*/
 
  @media (min-width: 992px) {
@@ -350,6 +356,9 @@
    float: right;
   }
 
+  .thank-you-image {
+   height: 50%;
+  }
 
  }
  
