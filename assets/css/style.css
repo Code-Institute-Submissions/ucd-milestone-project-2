@@ -86,6 +86,18 @@
   -o-transition: all 0.20s ease-in-out;
  }
 
+.store-link {
+ color: #fff;
+}
+
+.store-link:hover {
+  color: #3264b5;
+  text-decoration: none;
+  -moz-transition: all 0.20s ease-in-out;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+ }
+
  .over-lay {
   background-color: rgba(0, 0, 0, .9);
 
@@ -112,7 +124,7 @@
 }
 
  .btn {
-  color: #fff;
+  color: #dc3545;
   background-color: #83aff7;
   font-family: 'Bree Serif', serif;
   font-weight: 700;
@@ -120,7 +132,7 @@
  }
 
  .btn:hover {
-  color: #fff;
+  color: #83aff7;
   background-color: #3264b5;
   -moz-transition: all 0.20s ease-in-out;
   -webkit-transition: all 0.20s ease-in-out;
@@ -131,6 +143,10 @@
   padding: 25px 0px;
   text-align: center;
  }
+ 
+ .twitter-container {
+  padding: 25px 0;
+ }
 
  h4 {
   border-bottom: 1px solid #fff;
@@ -138,6 +154,10 @@
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 20px;
+ }
+ 
+ .jumbotron-container {
+  padding: 25px 0;
  }
 
  /*--------------------Social-links Footer*/
@@ -260,9 +280,12 @@
   color: #fff;
  }
 
+.jumbotron {
+ background-color: #0f1923;
+}
  /*-------------------------------------------Media Queries*/
 
- @media (min-width: 768px) {
+ @media (min-width: 992px) {
 
   .navbar {
    height: 45px;
