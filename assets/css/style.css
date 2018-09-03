@@ -2,7 +2,7 @@
   font-family: 'Bree Serif', serif;
   text-align: center;
   color: #3264b5;
-  background: url(./assets/css/images/background.jpg) no-repeat center center fixed;
+  background: url(assets/css/images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
