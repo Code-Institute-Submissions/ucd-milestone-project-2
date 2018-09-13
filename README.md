@@ -131,5 +131,6 @@ Media
 <li>Say Amen (Saturday Night) <a href= "https://www.youtube.com/watch?v=jVXauWq9Hwg" target="_blank">https://www.youtube.com/watch?v=jVXauWq9Hwg</a></li>
 </ul>
 </p>
-Acknowledgements
+
+<h3>Acknowledgements<h3>
 I received inspiration for this project from the song and music video for "High Hopes" by Panic! At The Disco. I wanted to choose a topic that I was enthusiastic about for my project, and as I am a big fan of Panic! I chose to create a website for them.
