@@ -1,33 +1,62 @@
-User Centric Front-End Development Project
-One or two paragraphs providing an overview of your project.
+<h1>User Centric Front-End Development Project</h1>
 
-Essentially, this part is your sales pitch.
+<p>This project is the first milestone project for the Code Institute. For this project, I chose to do create a website for the band Panic! At The Disco, one of my favourite bands.
+My intention was to create a website that was streamlined and easy to follow for existing fans to keep up/interact with the band, and for new, potential fans who want to find out more about the band.</p>
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+<h2>UX</h2>
+<p>This website is intended for people who are interested in the band.It allows them to listen to/watch music/videos from the band at their leisure on the website.</p>
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+<p>My website will allow (potential)fans to listen to and watch content from the band, and allow them to book/request the band to perform for them at an event such as a Christmas party or a wedding.</p>
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+<h3>User Stories</h3>
+<ul>
+<li>As a (potential)fan, I want to be able to find out about the band and it's members.</li>
+<li>As a (potential)fan, I want to be able to find out about new content when and/or if it is available.</li>
+<li>As a (potential)fan, I want to be able to listen to audio clips from the band on their website.</li>
+<li>As a (potential)fan, I want to be able to watch (music)videos of the band while on their website.</li>
+</ul>
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+<h3>Wireframes</h3>
+<ul>
+<li><a href= "/assets/images/wireframes/Wireframe 1.jpg" target= "_blank">Mobile Wireframe 1</a></li>
+<li><a href= "/assets/images/wireframes/Wireframe 2.jpg" target= "_blank">Mobile Wireframe 2</a></li>
+<li><a href= "/assets/images/wireframes/Wireframe 3.jpg" target= "_blank">Desktop Wireframe 1</a></li>
+<li><a href= "/assets/images/wireframes/Wireframe 4.jpg" target= "_blank">Desktop Wireframe 2</a></li>
+</ul>
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+<h2>Features</h2>
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+<h3>Existing Features</h3>
+<ul>
+<li>"Home" - This is the landing page where visitors to the website are welcomed. It gives some flavour text about the band and includes a link to "The Band" page of the website.</li>
+<li>"Sign Up" - This is a feature of the "Home" page where people can sign up to receive notifications of new music/content from the band via email service.</li>
+<li>"Store" section - This is a feature of the "Home" page that links the user to the band's merchandise store where they may purchase items to support the band.</li>
+<li>"Twitter feed" - This is a live twitter feed of the band's that allows users to view the latest happenings from the band.</li>
+<li>"The Band" - This page contains information on all current band members, including links to their personal instagram and twitter accounts, and a link to the "Media" page of the website.</li>
+<li>"Media" - This is where visitors of the website can listen to clips of the bands music and watch some of their music videos. It also contains links to various music apps where users may listen to/download/purchase music by the band.</li>
+<li>"Book us" section - This is an advert placed on the "Media" page leting the user know that they can book the band for parties/functions, along with a link to the "Contact" page.</li>
+<li>"Contact" - This page contains a form for users to fill out in order to request the band to play at an event that they are having.</li>
+<li>"Social links footer" - A permanent feature on every page that links to the general social accounts of the band, allowing users to keep up to date with their activities.</li>
+</ul>
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+<h3>Features Left to Implement</h3>
+<ul>
+<li>Page on website to inform users of the band's charity "High Hopes Foundation" and how they can get involved if they so wish.</li>
+</ul>
+
+<h2>Technologies Used</h2>
+For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+<ul>
+<li><a href= "https://jquery.com/" target= "_blank">JQuery</a>Supports responsive navbar at top of page.</li>
+<li><a href= "https://popper.js.org/" target= "_blank">Popper JS</a>Supports responsive navbar at top of page.</li>
+<li><a href= "https://getbootstrap.com/docs/4.1/getting-started/introduction/" target= "_blank">Bootstrap JS</a>Supports responsive navbar at top of page.</li>
+<li><a href= "https://getbootstrap.com/docs/4.1/getting-started/introduction/" target= "_blank">Bootstrap CSS</a>Supports grid layout and stylings used throughout website, including but not restricted to the navbar and forms.</li>
+<li><a href= "https://publish.twitter.com/#" target= "_blank">Twitter JS</a>Supports twitter feed at bottom of "Home" page.</li>
+</ul>
+
+
 Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
