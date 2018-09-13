@@ -46,7 +46,6 @@ My intention was to create a website that was streamlined and easy to follow for
 </ul>
 
 <h2>Technologies Used</h2>
-For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 <ul>
 <li><a href= "https://jquery.com/" target= "_blank">JQuery</a> -Supports responsive navbar at top of page.</li>
@@ -102,33 +101,35 @@ For each, provide its name, a link to its official site and a short sentence of 
 As such, I will continue to edit the CSS code to try and fix the problem.</p>
 
 <h2>Deployment</h2>
-I have pushed the code to a remote repository in GitHub where I have published the site on GitHub Pages.
+<p>I have pushed the code to a remote repository in GitHub where I have published the site on GitHub Pages.
 
-Here is the link:<a href= "https://liammcgcistudent.github.io/ucd-milestone-project" target="_blank"></a>
+Here is the link:<a href= "https://liammcgcistudent.github.io/ucd-milestone-project" target="_blank">https://liammcgcistudent.github.io/ucd-milestone-project</a></p>
 
 
 <h2>Credits</h2>
 <h3>Content</h3>
-The text for "Home" was copied from the Wikipedia article <a href= "https://en.wikipedia.org/wiki/Panic!_at_the_Disco" target= "_blank"></a>
-The text for "The Band" was copied from the Wikipedia article <a href= "https://en.wikipedia.org/wiki/Brendon_Urie" target= "_blank"></a>
+<p>The text for "Home" was copied from the Wikipedia article <a href= "https://en.wikipedia.org/wiki/Panic!_at_the_Disco" target= "_blank"></a></p>
+<p>The text for "The Band" was copied from the Wikipedia article <a href= "https://en.wikipedia.org/wiki/Brendon_Urie" target= "_blank"></a></p>
+
 Media
-The photos used in this site were obtained from:
+<p>The photos used in this site were obtained from:
 <ul>
-<li>Page Icon <a href="https://cdn.shopify.com/s/files/1/0001/8022/4052/products/panic-at-the-disco-logo-sticker-s8022_08db9aaa-2cf8-4ace-a1b5-0432d1213332_1200x1200.jpg?v=1521505157" target="_blank"></a></li>
-<li>Band Image <a href="https://en.wikipedia.org/wiki/File:Panic!_At_The_Disco_Shorty_Awards_2015.png" target="_blank"></a></li>
-<li>Background Image <a href="https://www.thinglink.com/scene/852988253874159616" target="_blank"></a></li>
-<li>Brendon Urie Image <a href="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/18/17/screen-shot-2018-06-18-at-17.13.32.png?width=1368&height=912&fit=bounds&format=pjpg&auto=webp&quality=70" target="_blank"></a></li>
-<li>Brendon Thank You Image <a href="https://i.pinimg.com/originals/42/68/9a/42689acc3819ee4f6a3f878a92d5c7c4.png" target="_blank"></a></li>
-<li>Album Cover 1 <a href="https://en.wikipedia.org/wiki/Pray_for_the_Wicked#/media/File:PATD_PFTW.jpg" target="_blank"></a></li>
-<li>Album Cover 2 <a href="https://en.wikipedia.org/wiki/Death_of_a_Bachelor#/media/File:Death_of_a_Bachelor.jpg" target="_blank"></a></li>
-<li>Album Cover 3 <a href="https://en.wikipedia.org/wiki/I_Write_Sins_Not_Tragedies#/media/File:Panic!_at_the_Disco_-_I_Write_Sins_Not_Tragedies.png" target="_blank"></a></li>
+<li>Page Icon <a href="https://cdn.shopify.com/s/files/1/0001/8022/4052/products/panic-at-the-disco-logo-sticker-s8022_08db9aaa-2cf8-4ace-a1b5-0432d1213332_1200x1200.jpg?v=1521505157" target="_blank">https://cdn.shopify.com/s/files/1/0001/8022/4052/products/panic-at-the-disco-logo-sticker-s8022_08db9aaa-2cf8-4ace-a1b5-0432d1213332_1200x1200.jpg?v=1521505157</a></li>
+<li>Band Image <a href="https://en.wikipedia.org/wiki/File:Panic!_At_The_Disco_Shorty_Awards_2015.png" target="_blank">https://en.wikipedia.org/wiki/File:Panic!_At_The_Disco_Shorty_Awards_2015.png</a></li>
+<li>Background Image <a href="https://www.thinglink.com/scene/852988253874159616" target="_blank">https://www.thinglink.com/scene/852988253874159616</a></li>
+<li>Brendon Urie Image <a href="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/18/17/screen-shot-2018-06-18-at-17.13.32.png?width=1368&height=912&fit=bounds&format=pjpg&auto=webp&quality=70" target="_blank">https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/18/17/screen-shot-2018-06-18-at-17.13.32.png?width=1368&height=912&fit=bounds&format=pjpg&auto=webp&quality=70</a></li>
+<li>Brendon Thank You Image <a href="https://i.pinimg.com/originals/42/68/9a/42689acc3819ee4f6a3f878a92d5c7c4.png" target="_blank">https://i.pinimg.com/originals/42/68/9a/42689acc3819ee4f6a3f878a92d5c7c4.png</a></li>
+<li>Album Cover 1 <a href="https://en.wikipedia.org/wiki/Pray_for_the_Wicked#/media/File:PATD_PFTW.jpg" target="_blank">https://en.wikipedia.org/wiki/Pray_for_the_Wicked#/media/File:PATD_PFTW.jpg</a></li>
+<li>Album Cover 2 <a href="https://en.wikipedia.org/wiki/Death_of_a_Bachelor#/media/File:Death_of_a_Bachelor.jpg" target="_blank">https://en.wikipedia.org/wiki/Death_of_a_Bachelor#/media/File:Death_of_a_Bachelor.jpg</a></li>
+<li>Album Cover 3 <a href="https://en.wikipedia.org/wiki/I_Write_Sins_Not_Tragedies#/media/File:Panic!_at_the_Disco_-_I_Write_Sins_Not_Tragedies.png" target="_blank">https://en.wikipedia.org/wiki/I_Write_Sins_Not_Tragedies#/media/File:Panic!_at_the_Disco_-_I_Write_Sins_Not_Tragedies.png</a></li>
 </ul>
+</p>
 
-The videos used for this project are as follows:
+<p>The videos used for this project are as follows:
 <ul>
-<li>Hey Look Ma, I Made It <a href= "https://www.youtube.com/watch?v=BzbxacRr5Gk" target="_blank"></a></li>
-<li>Say Amen (Saturday Night) <a href= "https://www.youtube.com/watch?v=jVXauWq9Hwg" target="_blank"></a></li>
+<li>Hey Look Ma, I Made It <a href= "https://www.youtube.com/watch?v=BzbxacRr5Gk" target="_blank">https://www.youtube.com/watch?v=BzbxacRr5Gk</a></li>
+<li>Say Amen (Saturday Night) <a href= "https://www.youtube.com/watch?v=jVXauWq9Hwg" target="_blank">https://www.youtube.com/watch?v=jVXauWq9Hwg</a></li>
 </ul>
-
+</p>
 Acknowledgements
 I received inspiration for this project from the song and music video for "High Hopes" by Panic! At The Disco. I wanted to choose a topic that I was enthusiastic about for my project, and as I am a big fan of Panic! I chose to create a website for them.
