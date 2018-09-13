@@ -42,53 +42,93 @@ My intention was to create a website that was streamlined and easy to follow for
 
 <h3>Features Left to Implement</h3>
 <ul>
-<li>Page on website to inform users of the band's charity "High Hopes Foundation" and how they can get involved if they so wish.</li>
+<li>Page on website to inform users of the band's charity "Highest Hopes Foundation" and how they can get involved if they so wish.</li>
 </ul>
 
 <h2>Technologies Used</h2>
 For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 <ul>
-<li><a href= "https://jquery.com/" target= "_blank">JQuery</a>Supports responsive navbar at top of page.</li>
-<li><a href= "https://popper.js.org/" target= "_blank">Popper JS</a>Supports responsive navbar at top of page.</li>
-<li><a href= "https://getbootstrap.com/docs/4.1/getting-started/introduction/" target= "_blank">Bootstrap JS</a>Supports responsive navbar at top of page.</li>
-<li><a href= "https://getbootstrap.com/docs/4.1/getting-started/introduction/" target= "_blank">Bootstrap CSS</a>Supports grid layout and stylings used throughout website, including but not restricted to the navbar and forms.</li>
-<li><a href= "https://publish.twitter.com/#" target= "_blank">Twitter JS</a>Supports twitter feed at bottom of "Home" page.</li>
+<li><a href= "https://jquery.com/" target= "_blank">JQuery</a> -Supports responsive navbar at top of page.</li>
+<li><a href= "https://popper.js.org/" target= "_blank">Popper JS</a> -Supports responsive navbar at top of page.</li>
+<li><a href= "https://getbootstrap.com/docs/4.1/getting-started/introduction/" target= "_blank">Bootstrap JS</a> -Supports responsive navbar at top of page.</li>
+<li><a href= "https://getbootstrap.com/docs/4.1/getting-started/introduction/" target= "_blank">Bootstrap CSS</a> -Supports grid layout and stylings used throughout website, including but not restricted to the navbar and forms.</li>
+<li><a href= "https://publish.twitter.com/#" target= "_blank">Twitter JS</a> -Supports twitter feed at bottom of "Home" page.</li>
 </ul>
 
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<h2>Testing</h2>
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+<p>I have tested the website extensively on different screen sizes, from mobile to desktop.The navbar is responsive at smaller screen sizes, and displays correctly at larger ones. All the audio and video files work. I have tested all the forms included in the website and they all function accordingly.</p>
+<ol>
+<li>
+<p>Notification email form:</p>
+<ol>
+<li>Go to the "Home" page</li>
+<li>Try to submit the empty form and verify that an error message about the required fields appears</li>
+<li>Try to submit the form with an invalid email address and verify that a relevant error message appears</li>
+<li>Try to submit the form with all inputs valid and verify that a success message appears.</li>
+</ol>
+</li>
+<li>
+<p>Booking form:</p>
+<ol>
+<li>Go to the "Contact" page</li>
+<li>Try to submit the empty form and verify that an error message about the required fields appears</li>
+<li>Try to submit the form with an invalid email address and verify that a relevant error message appears</li>
+<li>Try to submit the form with all inputs valid and verify that a success message appears.</li>
+</ol>
+</li>
+<li>
+<p>Audio files:</p>
+<ol>
+<li>Go to the "Media" page</li>
+<li>Click on the play button and verify that the audio files play.</li>
+</ol>
+</li>
+<li>
+<p>Video files:</p>
+<ol>
+<li>Go to the "Media" page</li>
+<li>Click on the play button and verify that the video files play.</li>
+</ol>
+</li>
+</ol>
+<p>My project is responsive at all screen resolutions. On the "Media" page the Spotify players are placed underneath an image of the single cover with the track title, for larger screens, 992px +, these are aligned opposite each other, whilst on smaller screens, 991px or less, they appear below each other in a pattern that allows better page flow.</p>
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+<h3>Bugs</h3>
+<p>During testing I noticed that on an iPad pro, the screen layout of some pages distorts and displays a gap at the bottom of the page below the footer. I tried altering paddings and margins to offset this for larger resolutions, but that only distorted it on smaller ones.
+As such, I will continue to edit the CSS code to try and fix the problem.</p>
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+<h2>Deployment</h2>
+I have pushed the code to a remote repository in GitHub where I have published the site on GitHub Pages.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Here is the link:<a href= "https://liammcgcistudent.github.io/ucd-milestone-project" target="_blank"></a>
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
+<h2>Credits</h2>
+<h3>Content</h3>
+The text for "Home" was copied from the Wikipedia article <a href= "https://en.wikipedia.org/wiki/Panic!_at_the_Disco" target= "_blank"></a>
+The text for "The Band" was copied from the Wikipedia article <a href= "https://en.wikipedia.org/wiki/Brendon_Urie" target= "_blank"></a>
 Media
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from:
+<ul>
+<li>Page Icon <a href="https://cdn.shopify.com/s/files/1/0001/8022/4052/products/panic-at-the-disco-logo-sticker-s8022_08db9aaa-2cf8-4ace-a1b5-0432d1213332_1200x1200.jpg?v=1521505157" target="_blank"></a></li>
+<li>Band Image <a href="https://en.wikipedia.org/wiki/File:Panic!_At_The_Disco_Shorty_Awards_2015.png" target="_blank"></a></li>
+<li>Background Image <a href="https://www.thinglink.com/scene/852988253874159616" target="_blank"></a></li>
+<li>Brendon Urie Image <a href="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/18/17/screen-shot-2018-06-18-at-17.13.32.png?width=1368&height=912&fit=bounds&format=pjpg&auto=webp&quality=70" target="_blank"></a></li>
+<li>Brendon Thank You Image <a href="https://i.pinimg.com/originals/42/68/9a/42689acc3819ee4f6a3f878a92d5c7c4.png" target="_blank"></a></li>
+<li>Album Cover 1 <a href="https://en.wikipedia.org/wiki/Pray_for_the_Wicked#/media/File:PATD_PFTW.jpg" target="_blank"></a></li>
+<li>Album Cover 2 <a href="https://en.wikipedia.org/wiki/Death_of_a_Bachelor#/media/File:Death_of_a_Bachelor.jpg" target="_blank"></a></li>
+<li>Album Cover 3 <a href="https://en.wikipedia.org/wiki/I_Write_Sins_Not_Tragedies#/media/File:Panic!_at_the_Disco_-_I_Write_Sins_Not_Tragedies.png" target="_blank"></a></li>
+</ul>
+
+The videos used for this project are as follows:
+<ul>
+<li>Hey Look Ma, I Made It <a href= "https://www.youtube.com/watch?v=BzbxacRr5Gk" target="_blank"></a></li>
+<li>Say Amen (Saturday Night) <a href= "https://www.youtube.com/watch?v=jVXauWq9Hwg" target="_blank"></a></li>
+</ul>
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from the song and music video for "High Hopes" by Panic! At The Disco. I wanted to choose a topic that I was enthusiastic about for my project, and as I am a big fan of Panic! I chose to create a website for them.
